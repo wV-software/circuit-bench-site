@@ -8,5 +8,9 @@
     { 
         "tip": "@Child decorated properties cannot have initializers, they are automatically set by Circuit-Bench!", 
         "videoUrl": "" 
+    },
+    "onlyChildCircuitsCouldBeAddedAsChildren":
+    {
+        "tip": "Only Circuits that extends `ChildCircuit` could be added as a child of another Circuit."
     }
 }
