@@ -3,5 +3,10 @@
     { 
         "tip": "ON GITHUB: Terminals cannot have initializers, to give an initial value to a Terminal, do this in the overriden preMount() method!", 
         "videoUrl": "https://www.youtube.com/watch?v=1ZfO149BJvg&pp=ygUWdnNjb2RlIGFwaSBjb2RlYWN0aW9ucw%3D%3D" 
+    },
+    "childCircuitPropertiesCannotHaveInitializers": 
+    { 
+        "tip": "@Child decorated properties cannot have initializers, they are automatically set by Circuit-Bench!", 
+        "videoUrl": "" 
     }
 }
