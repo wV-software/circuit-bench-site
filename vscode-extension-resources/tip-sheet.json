@@ -46,19 +46,19 @@
     },
     "notAllowedDecorator_property":
     {
-        "tip": "This decorator is not allowed on a `Circuit` property"
+        "tip": "This is a method decorator. It is not allowed on a property"
     },
     "notAllowedDecorator_method":
     {
-        "tip": "This decorator is not allowed on a `Circuit` method"
+        "tip": "This is a property decorator. It is not allowed on a method."
     },
     "invalidDecoratorMix_Terminal_Cards":
     {
-        "tip": "Cannot have both `Terminal` decorator along with `Cards` decorator on the same property!"
+        "tip": "Cannot have both `Terminal` decorator along with `Cards` decorator on the same property."
     },
     "invalidDecoratorMix_Terminal_Child":
     {
-        "tip": "Cannot have both `Terminal` decorator along with `Child` decorator on the same property!"
+        "tip": "Cannot have both `Terminal` decorator along with `Child` decorator on the same property."
     },
      "invalidDecoratorMix_Child_Child":
     {
@@ -225,6 +225,10 @@
     "terminalMustHaveExplicitTypeNotation":
     {
         "tip": "@Terminal decorated property, must have an explicit type notation"
+    },
+    "circularCircuitComposition":
+    {
+        "tip": "Circuit of this type in position leads to a circular circuit composition"
     }
 
 }
