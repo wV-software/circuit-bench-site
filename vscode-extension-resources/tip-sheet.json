@@ -158,11 +158,11 @@
     },
     "circuitPickerTypeMustMatchTheDecoratedProp_Cards":
     {
-        "tip": "Returned type must exactly match the decorated property type"
+        "tip": "@Cards decorated property, the return type must exactly match the decorated property type"
     },
     "circuitPickerTypeMustMatchTheDecoratedProp_Child":
     {
-        "tip": "Returned type must exactly match the decorated property type"
+        "tip": "@Child decorated property, the return type must exactly match the decorated property type"
     },
     "typeNotWatchableInThisCircuit_CalcOn":
     {
