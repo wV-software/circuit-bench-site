@@ -166,7 +166,7 @@
     },
     "typeNotWatchableInThisCircuit_CalcOn":
     {
-        "tip": "This type is cannot be watched in this Circuit, since it's not self, descendant nor a singleton Circuit."
+        "tip": " This type is cannot be watched in this Circuit, since it's not self, descendant nor a singleton Circuit."
     },
     "typeNotWatchableInThisCircuit_RunOn":
     {
@@ -204,11 +204,11 @@
     },
     "childTypeMustExtendChildCircuit":
     {
-        "tip": "An @Child decorated property type must extend ChildCircuit"
+        "tip": "@Child decorated property type must extend ChildCircuit"
     },
     "handlerMethodMustHaveVoidAsReturnType":
     {
-        "tip": "An @RunOn decorated method must have explicitly have `void` as the return type"
+        "tip": "@RunOn decorated method must have explicitly have `void` as the return type"
     },
     "cannotHaveDuplicateTerminalDecorator":
     {
@@ -224,7 +224,7 @@
     },
     "terminalMustHaveExplicitTypeNotation":
     {
-        "tip": "An @Terminal decorated property, must have an explicit type notation"
+        "tip": "@Terminal decorated property, must have an explicit type notation"
     }
 
 }
