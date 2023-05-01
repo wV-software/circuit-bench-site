@@ -1,16 +1,234 @@
 {
     "terminalsCannotHaveInitializers": 
     { 
-        "tip": "ON GITHUB: Terminals cannot have initializers, to give an initial value to a Terminal, do this in the overriden preMount() method!", 
+        "tip": "@Terminal decorated properties cannot have initializers, to give an initial value to a Terminal, do this in the overriden preMount() method!", 
         "videoUrl": "https://www.youtube.com/watch?v=1ZfO149BJvg&pp=ygUWdnNjb2RlIGFwaSBjb2RlYWN0aW9ucw%3D%3D" 
     },
     "childCircuitPropertiesCannotHaveInitializers": 
     { 
-        "tip": "@Child decorated properties cannot have initializers, they are automatically set by Circuit-Bench!", 
-        "videoUrl": "" 
+        "tip": "@Child decorated properties cannot have initializers, they are automatically set by Circuit-Bench!"
+    },
+    "cardsPropertiesCannotHaveInitializers": 
+    { 
+        "tip": "@Cards decorated properties cannot have initializers, they are automatically set by Circuit-Bench!"
     },
     "onlyChildCircuitsCouldBeAddedAsChildren":
     {
         "tip": "Only Circuits that extends `ChildCircuit` could be added as a child of another Circuit."
+    },
+    "cannotDeclareConstructor":
+    {
+        "tip": "You cannot declare a constructor in a Circuit class. Use preMount() instead to do the same tasks you have to do in a constructor."
+    },
+    "onlyTypeRefAcceptedAsBaseClass":
+    {
+        "tip": "Only type reference is allowed to denote a base class"
+    },
+    "couldntRecognizeSubclassType":
+    {
+        "tip": "Couldn't recognize subclass type"
+    },
+    "registeredButDoesntExtendBaseCircuitClass":
+    {
+        "tip": "@Register decorated class must extend one of the base Circuit classes"
+    },
+    "circuitClassesMustBeDecoratedByRegister":
+    {
+        "tip": "Circuit classes must be decorated by @Register decorator"
+    },
+    "notAllowedDecorator_class":
+    {
+        "tip": "This class decorator is not allowed"
+    },
+    "calculatorMustFollowTerminal":
+    {
+        "tip": "A `Calculator` method must directly follow the `Terminal` it calculates."
+    },
+    "notAllowedDecorator_property":
+    {
+        "tip": "This decorator is not allowed on a `Circuit` property"
+    },
+    "notAllowedDecorator_method":
+    {
+        "tip": "This decorator is not allowed on a `Circuit` method"
+    },
+    "invalidDecoratorMix_Terminal_Cards":
+    {
+        "tip": "Cannot have both `Terminal` decorator along with `Cards` decorator on the same property!"
+    },
+    "invalidDecoratorMix_Terminal_Child":
+    {
+        "tip": "Cannot have both `Terminal` decorator along with `Child` decorator on the same property!"
+    },
+     "invalidDecoratorMix_Child_Child":
+    {
+        "tip": "Multiple `Child` decorator on the same property"
+    },   
+    "invalidDecoratorMix_Cards_Cards":
+    {
+        "tip": "Multiple `Cards` decorator on the same property"
+    },
+    "invalidDecoratorMix_Child_Cards":
+    {
+        "tip": "Cannot have both `Child` decorator along with `Cards` decorator on the same property!"
+    },
+    "invalidDecoratorMix_RunOn_CalcOn":
+    {
+        "tip": "Cannot have both `RunOn` decorator along with `CalcOn` decorator on the same method."
+    },
+    "calculatorReturnTypeMustLiterallyMatchItsTerminal":
+    {
+        "tip": "Calculator return type must literaly match the type of its preceding terminal."
+    },
+    "twoArgsExpected_CalcOnDecorator":
+    {
+        "tip": "`CalcOn` decorator expects two arguments`"
+    },
+    "twoArgsExpected_RunOnDecorator":
+    {
+        "tip": "`RunOn` decorator expects two arguments`"
+    },
+    "oneArgExpected_ChildDecorator":
+    {
+        "tip": "`Child` decorator expects exactly one argument`"
+    },
+    "oneArgExpected_CardsDecorator":
+    {
+        "tip": "`Cards` decorator expects exactly one argument`"
+    },
+    "DEV_decoratorNodeExpectedHere":
+    {
+        "tip": "`DEV: A decorator node expected here!`"
+    },
+    "DEV_RunOndecoratorNodeExpectedHere":
+    {
+        "tip": "`DEV: A decorator node expected here!`"
+    },
+    "circuitTypePredicateExpected_RunOnDecorator_CircuitType":
+    {
+        "tip": "`RunOn` decorator expects a valid Circuit type predicate here!"
+    },
+    "circuitTypePredicateExpected_CardsDecorator_CircuitType":
+    {
+        "tip": "`Cards` decorator expects a valid Circuit type predicate here!"
+    },
+    "circuitTypePredicateExpected_CalcOnDecorator_CircuitType":
+    {
+        "tip": "`CalcOn` decorator expects a valid Circuit type predicate here!"
+    },
+    "circuitTypePredicateExpected_ChildDecorator_CircuitType":
+    {
+        "tip": "`Child` decorator expects a valid Circuit type predicate here!"
+    },
+    "circuitTypePredicate_SimpleTypeRefExpected":
+    {
+        "tip": "A Circuit type predicate is expected to return a simple identifier resembles a reference to a Circuit Type."
+    },
+    "circuitTypeNotRecognized":
+    {
+        "tip": "Identifier not recognized. A Circuit type is expected"
+    },
+    "terminalPredicateExpected_RunOnDecorator":
+    {
+        "tip": "`RunOn` decorator expects a valid `Terminal` predicate here!"
+    },
+    "terminalPredicateExpected_CardsDecorator":
+    {
+        "tip": "`Cards` decorator expects a valid `Terminal` predicate here!"
+    },
+    "terminalPredicateExpected_CalcOnDecorator":
+    {
+        "tip": "`CalcOn` decorator expects a valid `Terminal` predicate here!"
+    },
+    "terminalPredicateExpected_ChildDecorator":
+    {
+        "tip": "`Child` decorator expects a valid `Terminal` predicate here!"
+    },
+    "invalidTerminalPicker":
+    {
+        "tip": "Terminal picker predicate should look like this: x => x._SomeTerminalName"
+    },
+    "computedPropertyIsNotAllowedAsTerminalName":
+    {
+        "tip": "Computed property name are not allowed as a Terminal name!"
+    },
+    "onlySimpleIdentifierIsAllowedAsTerminalName":
+    {
+        "tip": "Only simple identifier is allowed as a Terminal name!"
+    },
+    "onlySimpleIdentifierIsAllowedAsCardsetName":
+    {
+        "tip": "Only simple identifier is allowed as a `Cards` property name!"
+    },
+    "circuitPickerTypeMustMatchTheDecoratedProp_Cards":
+    {
+        "tip": "Returned type must exactly match the decorated property type"
+    },
+    "circuitPickerTypeMustMatchTheDecoratedProp_Child":
+    {
+        "tip": "Returned type must exactly match the decorated property type"
+    },
+    "typeNotWatchableInThisCircuit_CalcOn":
+    {
+        "tip": "This type is cannot be watched in this Circuit, since it's not self, descendant nor a singleton Circuit."
+    },
+    "typeNotWatchableInThisCircuit_RunOn":
+    {
+        "tip": "This type is cannot be watched in this Circuit, since it's not self, descendant nor a singleton Circuit."
+    },
+    
+    "claculatorMethodCannotBeStatic":
+    {
+        "tip": "A `Circuit Calculator Method` cannot be static"
+    },
+
+    "childCircuitCannotBeStatic":
+    {
+        "tip": "A `Circuit Child Property` cannot be static"
+    },
+    "terminalCannotBeStatic":
+    {
+        "tip": "A `Circuit Terminal` cannot be static"
+    },
+    "terminalPropertyMustHaveExplicitTypeNotation":
+    {
+        "tip": "A `Circuit Terminal Property` must have an explicit type notation"
+    },
+    "cardsPropertyMustHaveExplicitTypeNotation":
+    {
+        "tip": "A `Circuit Cards Property` must have an explicit type notation"
+    },
+    "childPropertyMustHaveExplicitTypeNotation":
+    {
+        "tip": "A `Circuit Child Property` must have an explicit type notation"
+    },
+    "inCardsOfT_TMustExtendChildCircuit":
+    {
+        "tip": "A @Cards decorated property type must be a CardSet<T> while T extends ChildCircuit"
+    },
+    "childTypeMustExtendChildCircuit":
+    {
+        "tip": "An @Child decorated property type must extend ChildCircuit"
+    },
+    "handlerMethodMustHaveVoidAsReturnType":
+    {
+        "tip": "An @RunOn decorated method must have explicitly have `void` as the return type"
+    },
+    "cannotHaveDuplicateTerminalDecorator":
+    {
+        "tip": "Cannot have duplicate @Terminal decorator on the same property!"
+    },
+    "cannotHaveDuplicateChildDecorator":
+    {
+        "tip": "Cannot have duplicate @Child decorator on the same property!"
+    },
+    "cannotHaveDuplicateCardsDecorator":
+    {
+        "tip": "Cannot have duplicate @Cards decorator on the same property!"
+    },
+    "terminalMustHaveExplicitTypeNotation":
+    {
+        "tip": "An @Terminal decorated property, must have an explicit type notation"
     }
+
 }
