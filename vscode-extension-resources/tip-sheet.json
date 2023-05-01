@@ -100,10 +100,6 @@
     {
         "tip": "`DEV: A decorator node expected here!`"
     },
-    "DEV_RunOndecoratorNodeExpectedHere":
-    {
-        "tip": "`DEV: A decorator node expected here!`"
-    },
     "circuitTypePredicateExpected_RunOnDecorator_CircuitType":
     {
         "tip": "`RunOn` decorator expects a valid Circuit type predicate here!"
