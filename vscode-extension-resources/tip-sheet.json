@@ -14,7 +14,7 @@
     },
     "onlyChildCircuitsCouldBeAddedAsChildren":
     {
-        "tip": "Only Circuits that extend `ChildCircuit` could be added as a child of another Circuit."
+        "tip": "Only an instance of a subclass of `ChildCircuit` could be added as a child of another Circuit."
     },
     "cannotDeclareConstructor":
     {
@@ -30,7 +30,7 @@
     },
     "registeredButDoesntExtendBaseCircuitClass":
     {
-        "tip": "@Register decorated class must extend one of the base Circuit classes"
+        "tip": "@Register decorated class must be a subclass of one of the base Circuit classes."
     },
     "circuitClassesMustBeDecoratedByRegister":
     {
@@ -204,11 +204,11 @@
     },
     "inCardsOfT_TMustExtendChildCircuit":
     {
-        "tip": "A @Cards decorated property type must be a CardSet<T> while T extends ChildCircuit"
+        "tip": "A subclass of ChildCircuit is required for the (@Cards decorated property) type."
     },
     "childTypeMustExtendChildCircuit":
     {
-        "tip": "@Child decorated property type must extend ChildCircuit"
+        "tip": "A subclass of ChildCircuit is required for the (@Child decorated property) type."
     },
     "handlerMethodMustHaveVoidAsReturnType":
     {
