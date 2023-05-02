@@ -124,9 +124,9 @@
     {
         "tip": "A Circuit type predicate is expected to return a simple identifier resembles a reference to a Circuit Type."
     },
-    "circuitTypeNotRecognized":
+    "validCircuitTypeIsExpected":
     {
-        "tip": "Identifier not recognized. A Circuit type is expected"
+        "tip": "A valid Circuit type is expected!"
     },
     "terminalPredicateExpected_RunOnDecorator":
     {
