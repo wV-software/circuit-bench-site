@@ -52,6 +52,18 @@
     {
         "tip": "This is a property decorator. It is not allowed on a method."
     },
+    "cannotMixForeignDecoratorsWithCircuitDecorators_Prop":
+    {
+        "tip": "Cannot mix non Circuit-Bench decorators with Circuit-Bench decorators on the same property"
+    },
+    "cannotMixForeignDecoratorsWithCircuitDecorators_Method":
+    {
+        "tip": "Cannot mix non Circuit-Bench decorators with Circuit-Bench decorators on the same method"
+    },
+    "cannotMixForeignDecoratorsWithCircuitDecorators_Class":
+    {
+        "tip": "Cannot mix non Circuit-Bench decorators with Circuit-Bench decorators on the same class"
+    },
     "invalidDecoratorMix_Terminal_Cards":
     {
         "tip": "Cannot have both `Terminal` decorator along with `Cards` decorator on the same property."
