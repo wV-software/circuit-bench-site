@@ -46,39 +46,31 @@
     },
     "notAllowedDecorator_property":
     {
-        "tip": "This is a method decorator. It is not allowed on a property"
+        "tip": "This decorator is not allowed on a property"
     },
     "notAllowedDecorator_method":
     {
-        "tip": "This is a property decorator. It is not allowed on a method."
+        "tip": "This decorator is not allowed on a method."
     },
     "cannotMixForeignDecoratorsWithCircuitDecorators_Prop":
     {
-        "tip": "Cannot mix non Circuit-Bench decorators with Circuit-Bench decorators on the same property"
+        "tip": "Cannot combine non-Circuit-Bench decorators with Circuit-Bench decorators on the same property"
     },
     "cannotMixForeignDecoratorsWithCircuitDecorators_Method":
     {
-        "tip": "Cannot mix non Circuit-Bench decorators with Circuit-Bench decorators on the same method"
+        "tip": "Cannot mix non-Circuit-Bench decorators with Circuit-Bench decorators on the same method"
     },
     "cannotMixForeignDecoratorsWithCircuitDecorators_Class":
     {
-        "tip": "Cannot mix non Circuit-Bench decorators with Circuit-Bench decorators on the same class"
+        "tip": "Cannot mix non-Circuit-Bench decorators with Circuit-Bench decorators on the same class"
     },
     "invalidDecoratorMix_Terminal_Cards":
     {
         "tip": "Cannot have both `Terminal` decorator along with `Cards` decorator on the same property."
     },
-    "invalidDecoratorMix_Terminal_Child":
+    "cannotMixOrDuplicateCircuitPropDecorators":
     {
-        "tip": "Cannot have both `Terminal` decorator along with `Child` decorator on the same property."
-    },
-     "invalidDecoratorMix_Child_Child":
-    {
-        "tip": "Multiple `Child` decorator on the same property"
-    },   
-    "invalidDecoratorMix_Cards_Cards":
-    {
-        "tip": "Multiple `Cards` decorator on the same property"
+        "tip": "Only one of @Terminal, @Child, and @Cards could be applied on a Circuit property"
     },
     "invalidDecoratorMix_Child_Cards":
     {
@@ -222,18 +214,7 @@
     {
         "tip": "@RunOn decorated method must have explicitly have `void` as the return type"
     },
-    "cannotHaveDuplicateTerminalDecorator":
-    {
-        "tip": "Cannot have duplicate @Terminal decorator on the same property!"
-    },
-    "cannotHaveDuplicateChildDecorator":
-    {
-        "tip": "Cannot have duplicate @Child decorator on the same property!"
-    },
-    "cannotHaveDuplicateCardsDecorator":
-    {
-        "tip": "Cannot have duplicate @Cards decorator on the same property!"
-    },
+
     "terminalMustHaveExplicitTypeNotation":
     {
         "tip": "@Terminal decorated property, must have an explicit type notation"
