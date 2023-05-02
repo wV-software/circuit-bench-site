@@ -106,7 +106,7 @@
     },
     "circuitTypePredicateExpected_RunOnDecorator_CircuitType":
     {
-        "tip": "`RunOn` decorator expects a valid Circuit type predicate here!"
+        "tip": "`A valid Circuit type predicate is expected here!"
     },
     "circuitTypePredicateExpected_CardsDecorator_CircuitType":
     {
