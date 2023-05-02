@@ -70,7 +70,7 @@
     },
     "cannotMixOrDuplicateCircuitPropDecorators":
     {
-        "tip": "Only one of @Terminal, @Child, and @Cards could be applied on a Circuit property"
+        "tip": "Either @Terminal, @Child, or @Cards could be applied on a Circuit property"
     },
     "invalidDecoratorMix_Child_Cards":
     {
