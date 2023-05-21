@@ -222,6 +222,10 @@
     "circularCircuitComposition":
     {
         "tip": "Circuit of this type in position leads to a circular circuit composition"
+    },
+    "cannotHaveNonDotwireDecoratorsInsideACircuit":
+    {
+        "tip": "You cannot have a non Dotwire's decorators in a Circuit's code"
     }
 
 }
