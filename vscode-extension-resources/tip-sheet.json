@@ -231,5 +231,17 @@
     "unallowedDecoratorOnCircuitsMethod":
     {
         "tip": "This decorator is not applicable on a Circuit's method"
+    },
+    "handlerMemberMustFollowAnInputProperty":
+    {
+        "tip": "handlerMemberMustFollowAnInputProperty"
+    },
+    "inputOrHandlerWasExpected":
+    {
+        "tip": "inputOrHandlerWasExpected"
+    },
+    "unhandledInputBundle":
+    {
+        "tip": "unhandledInputBundle"
     }
 }
