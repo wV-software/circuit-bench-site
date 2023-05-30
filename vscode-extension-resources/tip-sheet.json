@@ -30,7 +30,7 @@
     },
     "registeredButDoesntExtendBaseCircuitClass":
     {
-        "tip": "@Namespace decorated class must be a subclass of one of the base Circuit classes."
+        "tip": "@Namespace decorated class must be a subclass of Circuit."
     },
     "circuitClassesMustBeDecoratedByNamespace":
     {
