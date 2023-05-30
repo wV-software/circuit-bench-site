@@ -32,9 +32,9 @@
     {
         "tip": "@Register decorated class must be a subclass of one of the base Circuit classes."
     },
-    "circuitClassesMustBeDecoratedByRegister":
+    "circuitClassesMustBeDecoratedByNamespace":
     {
-        "tip": "Circuit classes must be decorated by @Register decorator"
+        "tip": "Circuit classes must be decorated by @Namespace decorator"
     },
     "notAllowedDecorator_class":
     {
@@ -44,18 +44,11 @@
     {
         "tip": "A `Calculator` method must directly follow the `Terminal` it calculates."
     },
-    "notAllowedDecorator_property":
-    {
-        "tip": "This decorator is not allowed on a property"
-    },
     "notAllowedDecorator_method":
     {
         "tip": "This decorator is not allowed on a method."
     },
-    "cannotMixForeignDecoratorsWithCircuitDecorators_Prop":
-    {
-        "tip": "Cannot combine non-Circuit-Bench decorators with Circuit-Bench decorators on the same property"
-    },
+
     "cannotMixForeignDecoratorsWithCircuitDecorators_Method":
     {
         "tip": "Cannot mix non-Circuit-Bench decorators with Circuit-Bench decorators on the same method"
@@ -67,10 +60,6 @@
     "invalidDecoratorMix_Terminal_Cards":
     {
         "tip": "Cannot have both `Terminal` decorator along with `Cards` decorator on the same property."
-    },
-    "cannotMixOrDuplicateCircuitPropDecorators":
-    {
-        "tip": "You cannot mix or duplicate applying (@Terminal, @Child, and @Cards) on a Circuit property."
     },
     "invalidDecoratorMix_Child_Cards":
     {
@@ -223,9 +212,24 @@
     {
         "tip": "Circuit of this type in position leads to a circular circuit composition"
     },
-    "cannotHaveNonDotwireDecoratorsInsideACircuit":
+    "decoratorIsNotAssignableToCircuitsProperty":
     {
-        "tip": "You cannot have a non Dotwire's decorators in a Circuit's code"
+        "tip": "This decorator is not applicable on a Circuit's property"
+    },
+    "invalidPropertyDecoratorCombination":
+    {
+        "tip": "This decorator combination is invalid for a Circuit's property"
+    },
+    "invalidMethodDecoratorCombination":
+    {
+        "tip": "This decorator combination is invalid for a Circuit's method"
+    },
+    "circuitMethodsCannotBePublic":
+    {
+        "tip": "The access modifier of a Circuit's method can be either private or protected."
+    },
+    "unallowedDecoratorOnCircuitsMethod":
+    {
+        "tip": "This decorator is not applicable on a Circuit's method"
     }
-
 }
