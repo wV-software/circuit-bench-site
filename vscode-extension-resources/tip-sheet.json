@@ -189,7 +189,7 @@
     },
     "childPropertyMustHaveExplicitTypeNotation":
     {
-        "tip": "A `Circuit Child Property` must have an explicit type notation"
+        "tip": "A `Circuit Child Property` must have either an explicit type notation or a CircuitType.resolve() statement as an initializer"
     },
     "inCardsOfT_TMustExtendChildCircuit":
     {
@@ -199,11 +199,6 @@
     {
         "tip": "A subclass of ChildCircuit is required for the (@Child decorated property) type."
     },
-    "handlerMethodMustHaveVoidAsReturnType":
-    {
-        "tip": "@RunOn decorated method must have explicitly have `void` as the return type"
-    },
-
     "terminalMustHaveExplicitTypeNotation":
     {
         "tip": "@Terminal decorated property, must have an explicit type notation"
@@ -236,12 +231,12 @@
     {
         "tip": "handlerMemberMustFollowAnInputProperty"
     },
-    "inputOrHandlerWasExpected":
-    {
-        "tip": "inputOrHandlerWasExpected"
-    },
     "unhandledInputBundle":
     {
         "tip": "unhandledInputBundle"
+    },
+    "handlerMethodMustBePrivate":
+    {
+        "tip": "handlerMethodMustBePrivate"
     }
 }
