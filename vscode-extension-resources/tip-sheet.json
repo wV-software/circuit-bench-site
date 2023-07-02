@@ -16,10 +16,6 @@
     {
         "tip": "Only an instance of a subclass of `ChildCircuit` could be added as a child of another Circuit."
     },
-    "cannotDeclareConstructor":
-    {
-        "tip": "You cannot declare a constructor in a Circuit class. Use preMount() instead to do the same tasks you have to do in a constructor."
-    },
     "onlyTypeRefAcceptedAsBaseClass":
     {
         "tip": "Only type reference is allowed to denote a base class"
@@ -31,10 +27,6 @@
     "registeredButDoesntExtendBaseCircuitClass":
     {
         "tip": "@Namespace decorated class must be a subclass of Circuit."
-    },
-    "circuitClassesMustBeDecoratedByNamespace":
-    {
-        "tip": "Circuit classes must be decorated by @Namespace decorator"
     },
     "notAllowedDecorator_class":
     {
@@ -81,10 +73,7 @@
     {
         "tip": "`RunOn` decorator expects two arguments`"
     },
-    "oneArgExpected_ChildDecorator":
-    {
-        "tip": "`Child` decorator expects exactly one argument`"
-    },
+
     "oneArgExpected_CardsDecorator":
     {
         "tip": "`Cards` decorator expects exactly one argument`"
@@ -193,11 +182,11 @@
     },
     "inCardsOfT_TMustExtendChildCircuit":
     {
-        "tip": "A subclass of ChildCircuit is required for the (@Cards decorated property) type."
+        "tip": "A subclass of Circuit is required for the (@Childset decorated property) type."
     },
     "childTypeMustExtendChildCircuit":
     {
-        "tip": "A subclass of ChildCircuit is required for the (@Child decorated property) type."
+        "tip": "A subclass of Circuit is required for the (@Child decorated property) type."
     },
     "terminalMustHaveExplicitTypeNotation":
     {
@@ -238,5 +227,21 @@
     "handlerMethodMustBePrivate":
     {
         "tip": "handlerMethodMustBePrivate"
-    }
+    },
+    "couldntDeduceChipType":
+    {
+        "tip": "couldntDeduceChipType"
+    },
+    "noRootCircuitFound":
+    {
+        "tip": "No @RootCircuit() decorated class found!"
+    },
+    "singletonDecoratedClassMustInheritCircuit":
+    {
+        "tip": "singletonDecoratedClassMustInheritCircuit!"
+    },
+    "rootCircuitDecoratedClassMustInheritCircuit":
+    {
+        "tip": "rootCircuitDecoratedClassMustInheritCircuit"
+    }        
 }
