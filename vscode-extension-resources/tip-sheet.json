@@ -12,9 +12,13 @@
     { 
         "tip": "@Cards decorated properties cannot have initializers, they are automatically set by Circuit-Bench!"
     },
-    "onlyChildCircuitsCouldBeAddedAsChildren":
+    "singletonCircuitCouldBeAddedAsChipOnceToRootCircuitOnly":
     {
-        "tip": "Only an instance of a subclass of `ChildCircuit` could be added as a child of another Circuit."
+        "tip": "singletonCircuitCouldBeAddedAsChipOnceToRootCircuitOnly."
+    },
+    "singletonCircuitAlreadyParentedWithTheRootCircuit":
+    {
+        "tip": "singletonCircuitCouldBeAddedAsChipOnceToRootCircuitOnly."
     },
     "onlyTypeRefAcceptedAsBaseClass":
     {
@@ -243,5 +247,17 @@
     "rootCircuitDecoratedClassMustInheritCircuit":
     {
         "tip": "rootCircuitDecoratedClassMustInheritCircuit"
+    },
+    "mustInheritFromCircuitToHaveThisPropertyDecorator":
+    {
+        "tip": "mustInheritFromCircuitToHaveThisPropertyDecorator"
+    }, 
+    "mustInheritFromCircuitToHaveThisMethodDecorator":
+    {
+        "tip": "mustInheritFromCircuitToHaveThisMethodDecorator"
+    },            
+    "aReceiverMustBeOfSingleTypeOfCircuit":
+    {
+        "tip": "aReceiverMustBeOfSingleTypeOfCircuit"
     }        
 }
